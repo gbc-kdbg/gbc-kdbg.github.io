@@ -1,7 +1,41 @@
-body {
+html {
+
+/* Background colors */
+--on-background: #ffffff;
+--primary-a: #7577B8;
+--secondary-a: #74A1C4;
+--secondary-b: #9D74C4;
+--secondary-c: 
+
+/* Foreground colors */
+--on-Header-footer: #7577B8;
+--on-titles: #74A1C4;
+--on-button: #9D74C4;
+
+}
+
+	/*
 	background-color: rgb(231, 215, 122);
 	font-weight: normal;
 	font-style: normal;
 	font-size: 3rem;
 	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	*/
+
+header{
+	margin: 0em;
+	padding: 0em;
+}
+.top{
+	width: 100%;
+	background-color: var(--primary-a);	
+	display: inline-block;
+	grid-gap: 0.5em;
+
+}
+.main_logo{
+	margin: 1em;
+	padding: 1em;
+	width: 10em;
+	height: auto;
 }
