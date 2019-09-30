@@ -348,6 +348,8 @@ nav {
 	grid-column-start: 1;
 	grid-column-end: 5;
 	text-align: center;
+	grid-gap: 0.5em;
+	margin: 1em;
 	}
   .title_section {
 	display: grid;
@@ -380,7 +382,8 @@ nav {
     justify-content: center;
     align-items: center;
     grid-column-start: 1;
-    grid-column-end: 1;
+	grid-column-end: 1;
+	margin: 1em;
 }
   .know01 {
 	background-image: url(../images/know-07.svg);
@@ -431,7 +434,46 @@ nav {
 	grid-column-start: 3;
 	grid-column-end: 4;
   }
-  /* end NeedToKnow*/
+  .fa {
+	color: white;
+    font-size: 3em;
+  }
+  /* start aplly*/
+  .apply {
+	background-image: url(../images/apply-01.svg);
+	background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    grid-column-start: 1;
+    grid-column-end: 5;
+  }
+  .apply_img {
+    display: grid;
+    background-color: #f47e204f;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.button{
+	display: grid;
+	grid-column-start: 2;
+	grid-column-end: 4;	  
+}
+.ready {
+	display: grid;
+	grid-template-columns:1fr;
+	grid-template-rows:  1fr;
+	grid-column-start: 1;
+	grid-column-end: 5;
+	text-align: center;
+	grid-gap: 0.5em;
+	margin: 1em;
+	}
+
+  /* end apply*/
 
 /******************/
 /* responsive Css */
