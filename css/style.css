@@ -306,8 +306,7 @@ nav {
 	grid-column-start: 1;
 	grid-column-end: 5;
 	}
-  .card {
-	}
+  
   .card img {
 	width: 100%;
 	}
@@ -461,6 +460,13 @@ nav {
 	display: grid;
 	grid-column-start: 2;
 	grid-column-end: 4;	  
+}
+.btn{
+	font-size: 2em;
+    color: white;
+    border: solid;
+    border-color: orange;
+    background-color: #ffa50075;
 }
 .ready {
 	display: grid;
