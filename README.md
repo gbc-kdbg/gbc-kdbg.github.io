@@ -3,6 +3,7 @@
 This is my _*review*_ project.
 ## Inspirations
 - [IDD Course Site]: https://www.georgebrown.ca/programs/interaction-design-program-g113/
+- https://templated.co/epilogue
 
 ## Guides
 - https://www.markdownguide.org/cheat-sheet/
