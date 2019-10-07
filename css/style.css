@@ -161,7 +161,7 @@ nav {
 	grid-column-start: 1;
 	grid-column-end: 5;
 }
-/* nav w3schools */
+
 /* start nav bar */
 .topnav {
 	
@@ -302,7 +302,7 @@ nav {
   .creations {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
-	grid-template-rows: 1fr 1fr;
+	grid-template-rows: auto 1fr 1fr;
 	grid-column-start: 1;
 	grid-column-end: 5;
 	}
@@ -355,6 +355,7 @@ nav {
 	text-transform: uppercase;
 	grid-column-start: 1;
 	grid-column-end: 4;
+	text-align: center;
 	}
 	.know {
 		height: 16em;
@@ -384,6 +385,11 @@ nav {
 	grid-column-end: 1;
 	margin: 1em;
 }
+
+	.text_overlay i {
+		font-size: 2em;
+	}
+
   .know01 {
 	background-image: url(../images/know-07.svg);
 	background-size: 100% 100%;
@@ -481,6 +487,29 @@ nav {
 
   /* end apply*/
 
+
+  .footer {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: auto;
+	grid-column-start: 1;
+	grid-column-end: 5;
+	background-color: var(--primary-a);
+	} 
+	.logof{
+
+	margin: 1em;
+	max-width: 15em;
+	min-width: 15em;
+	
+	justify-self: end;
+	}
+	.social {
+		font-size: 2em;
+		margin: 0.8em; 
+
+	}
+
 /******************/
 /* responsive Css */
 /******************/
@@ -509,7 +538,7 @@ nav {
 	  /* start creations*/
 	  .creations {
 		grid-template-columns: 1fr;
-		grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+		grid-template-rows: auto 1fr 1fr 1fr 1fr 1fr;
 		}
 	  .card {
 		grid-column-start: 1 !important;
@@ -520,13 +549,16 @@ nav {
 	  /* start Know*/
 	  .NeedToKnow {
 		grid-template-columns: 1fr;
-		grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+		grid-template-rows: auto 1fr 1fr 1fr 1fr 1fr;
 		}
 	  .know {
 		grid-column-start: 1 !important;
 		grid-column-end: 5 !important;
 	
 		}
+	.logof{
+		min-width: 10em;
+	}
 	  /* end Know*/
 
   }
